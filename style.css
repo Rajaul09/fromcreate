@@ -1,11 +1,28 @@
 table {
-    border-collapse: collapse;
-    border: 2px solid black;
-  }
-  
-  th,
-  td {
-    padding: 5px;
-    border: 1px solid black;
-  }
-  
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+caption{
+  font-weight: 800;
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.namehead{
+  text-align: start;
+  margin-right: 20px;
+}
+.footername{
+  text-align: end;
+}
+.textcenter{
+  text-align: center;
+}
+.unbold{
+  font-weight: 400;
+}
